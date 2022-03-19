@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Kruno Golubić - GitHub Pages
+title: Kruno Golubić - Personal website
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Back in 1995, I have created my first website, and that's how my journey into
@@ -28,8 +28,15 @@ description: >- # this means to ignore newlines until "baseurl:"
   role is related to technical writing and documentation. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: kgolubic
-github_username:  kgolubic
+#twitter_username: kgolubic
+#github_username:  kgolubic
+
+
+minima:
+  social_links:
+    twitter: kgolubic
+    github: kgolubic
+    linkedin: kgolubic
 
 # Build settings
 theme: minima
@@ -55,3 +62,9 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+header_pages:
+  - about.md
+  - portfolio.md
+  - contact.md
+
