@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+My personal website has a new place - GitHub pages. Checkout my [portfolio](portfolio.md) or [contact me](contact.md).
