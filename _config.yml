@@ -39,8 +39,7 @@ minima:
     linkedin: kgolubic
 
 # Build settings
-# theme: minima
-remote_theme: jekyll-theme-yat
+theme: minima
 plugins:
   - jekyll-feed
 
